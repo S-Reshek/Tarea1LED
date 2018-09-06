@@ -18,6 +18,13 @@
 #define GPIO_MUX1  0x00000100
 typedef const uint32 GPIO_pinControlRegisterType;
 
+#define GPIO_CLOCK_GATING_PORTA  0x200;
+#define GPIO_CLOCK_GATING_PORTB  0x400;
+#define GPIO_CLOCK_GATING_PORTC  0x800;
+#define GPIO_CLOCK_GATING_PORTD  0x1000;
+#define GPIO_CLOCK_GATING_PORTE  0x2000;
+
+
 typedef struct
 {
 	uint8 flagPortA : 1;
